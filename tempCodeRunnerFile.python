@@ -1,0 +1,8 @@
+b = 40100
+
+def reverse(b):
+    c = str(b)
+    c = c[::-1]
+    return int(c)
+
+print(reverse(b))
